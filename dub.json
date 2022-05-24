@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Andrew Lalis"
+	],
+	"copyright": "Copyright © 2022, Andrew Lalis",
+	"description": "Snowflake ID generator",
+	"license": "MIT",
+	"name": "dflake"
+}

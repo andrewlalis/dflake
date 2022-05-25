@@ -74,6 +74,7 @@ struct SnowflakeGenerator {
      */
     this(long nodeId, long epoch) {
         assert(nodeId >= 0 && nodeId < MAX_NODE_ID);
+        assert(epoch >= 0 && epoch < timestampMillis(0));
         this.nodeId = nodeId;
         this.epoch = epoch;
         this.mutex = new shared Mutex();
